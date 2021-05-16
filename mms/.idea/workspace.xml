@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b9c146dc-7c64-4e8d-a567-c4835ba2f630" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\myTool\repository" />
+        <option name="mavenHome" value="D:/myTool/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="D:\myTool\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1sL5cuhZm2C1gzGfsQhLCliiD64" />
+  <component name="ProjectViewState">
+    <option name="foldersAlwaysOnTop" value="false" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="MyBatisLogPluginparameters" value="Parameters:" />
+    <property name="MyBatisLogPluginpreparing" value="Preparing:" />
+    <property name="MyBatisLogPluginrunning" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mms-web/src/main/resources" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.yj.mms.service" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\00\personal\mms\mms-web\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.MmsWebApplication">
+    <configuration name="Sorts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yj.mms.algorithm.Sorts" />
+      <module name="mms-services" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yj.mms.algorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MmsWebApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mms-web" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yj.mms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yj.mms" />
+      <option name="MAIN_CLASS_NAME" value="com.yj.mms.MmsWebApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MmsWebApplicationTests.testPerson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mms-web" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yj.mms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yj.mms" />
+      <option name="MAIN_CLASS_NAME" value="com.yj.mms.MmsWebApplicationTests" />
+      <option name="METHOD_NAME" value="testPerson" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MmsWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false">
+      <module name="mms-web" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yj.mms.MmsWebApplication" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=8005" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Sorts" />
+      <item itemvalue="JUnit.MmsWebApplicationTests.contextLoads" />
+      <item itemvalue="JUnit.MmsWebApplicationTests.testPerson" />
+      <item itemvalue="Spring Boot.MmsWebApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Sorts" />
+        <item itemvalue="JUnit.MmsWebApplicationTests.testPerson" />
+        <item itemvalue="JUnit.MmsWebApplicationTests.contextLoads" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b9c146dc-7c64-4e8d-a567-c4835ba2f630" name="Default Changelist" comment="" />
+      <created>1620639111633</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1620639111633</updated>
+      <workItem from="1620639114941" duration="2102000" />
+      <workItem from="1620641493225" duration="13043000" />
+      <workItem from="1620920241497" duration="2939000" />
+      <workItem from="1620923195399" duration="3117000" />
+      <workItem from="1620962628037" duration="110000" />
+      <workItem from="1620963488678" duration="40000" />
+      <workItem from="1621005906325" duration="33332000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1621145624191">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1621145624191" />
+    <state x="765" y="235" key="#com.intellij.ide.util.MemberChooser" timestamp="1621144862983">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="235" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1621144862983" />
+    <state x="570" y="444" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1620642305593">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="570" y="444" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1620642305593" />
+    <state x="739" y="399" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1620642307148">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="739" y="399" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1920.1040@0.0.1920.1040" timestamp="1620642307148" />
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1620643311795">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1620643311795" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1621065427925">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1621065427925" />
+    <state width="1877" height="147" key="GridCell.Tab.0.bottom" timestamp="1621164286614">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="147" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1621164286614" />
+    <state width="1877" height="147" key="GridCell.Tab.0.center" timestamp="1621164286613">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="147" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1621164286613" />
+    <state width="1877" height="147" key="GridCell.Tab.0.left" timestamp="1621164286613">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="147" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1621164286613" />
+    <state width="1877" height="147" key="GridCell.Tab.0.right" timestamp="1621164286614">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="147" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1621164286614" />
+    <state width="1877" height="422" key="GridCell.Tab.1.bottom" timestamp="1621164286610">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="422" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1621164286610" />
+    <state width="1877" height="422" key="GridCell.Tab.1.center" timestamp="1621164286610">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="422" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1621164286610" />
+    <state width="1877" height="422" key="GridCell.Tab.1.left" timestamp="1621164286610">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="422" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1621164286610" />
+    <state width="1877" height="422" key="GridCell.Tab.1.right" timestamp="1621164286610">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="422" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1621164286610" />
+    <state width="1877" height="288" key="GridCell.Tab.2.bottom" timestamp="1621145572942">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="288" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1621145572942" />
+    <state width="1877" height="288" key="GridCell.Tab.2.center" timestamp="1621145572942">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="288" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1621145572942" />
+    <state width="1877" height="288" key="GridCell.Tab.2.left" timestamp="1621145572942">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="288" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1621145572942" />
+    <state width="1877" height="288" key="GridCell.Tab.2.right" timestamp="1621145572942">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="288" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1621145572942" />
+    <state x="440" y="94" key="SettingsEditor" timestamp="1620920897475">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1620920897475" />
+    <state x="640" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1620963581894">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="640" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1620963581894" />
+    <state x="0" y="0" width="1397" height="991" key="dock-window-1" timestamp="1620921476339">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="0" y="0" width="1397" height="991" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1620921476339" />
+    <state x="-313" y="243" width="1893" height="1000" key="dock-window-2" timestamp="1620921580444">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-313" y="243" width="1893" height="1000" key="dock-window-2/0.0.1920.1040@0.0.1920.1040" timestamp="1620921580444" />
+    <state x="567" y="220" width="786" height="600" key="find.popup" timestamp="1621150137289">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="567" y="220" width="786" height="600" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1621150137289" />
+    <state x="334" y="214" key="new project wizard" timestamp="1621065463500">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="334" y="214" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1621065463500" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1621150813504">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1621150813504" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mms-web/src/main/java/com/yj/mms/controller/SessionTestController.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/mms-services/src/main/java/com/yj/mms/algorithm/Sorts.java</url>
+          <line>47</line>
+          <properties class="com.yj.mms.algorithm.Sorts" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

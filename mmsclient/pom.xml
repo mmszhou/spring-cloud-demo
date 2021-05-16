@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" >
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.1.4.RELEASE</version>
+       <!-- <version>2.4.1</version>-->
+        <relativePath/>
+    </parent>
+
+    <groupId>com.yj</groupId>
+    <artifactId>mmsclient</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <modules>
+        <module>mmsclient-web</module>
+        <module>mmsclient-service</module>
+        <module>mmsclient-client</module>
+    </modules>
+
+    <packaging>pom</packaging>
+    <name>mmsclient</name>
+
+    <properties>
+        <mmsclient.vesion>1.0-SNAPSHOT</mmsclient.vesion>
+        <!--spring boot 2.4.X才需要-->
+        <!--<spring-cloud.version>2020.0.0</spring-cloud.version>-->
+
+        <spring-cloud.version>Greenwich.SR1</spring-cloud.version>
+        <spring-cloud-alibaba.version>2.1.0.RELEASE</spring-cloud-alibaba.version>
+    </properties>
+
+    <!--maven管理，控制子包的版本-->
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.yj</groupId>
+                <artifactId>mmsclient-service</artifactId>
+                <version>${mmsclient.vesion}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.yj</groupId>
+                <artifactId>mmsclient-client</artifactId>
+                <version>${mmsclient.vesion}</version>
+            </dependency>
+
+            <!--引入spring cloud -->
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>${spring-cloud.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+            <!--引入spring cloud alibaba -->
+            <dependency>
+                <groupId>com.alibaba.cloud</groupId>
+                <artifactId>spring-cloud-alibaba-dependencies</artifactId>
+                <version>${spring-cloud-alibaba.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+        </dependencies>
+    </dependencyManagement>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+
+        <!--feign声明式调用-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-openfeign</artifactId>
+        </dependency>
+
+        <!--<spring-cloud.version>2020.0.0</spring-cloud.version> 这个版本才需要-->
+       <!-- <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-loadbalancer</artifactId>
+        </dependency>-->
+        <dependency>
+            <groupId>io.github.openfeign</groupId>
+            <artifactId>feign-httpclient</artifactId>
+        </dependency>
+
+        <!--服务注册于发现-->
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
+            <!-- 添加spring-cloud-starter-loadbalancer,排除 Nacos 的 Ribbon-->
+            <!--<spring-cloud.version>2020.0.0</spring-cloud.version> 这个版本才需要-->
+          <!--  <exclusions>
+                <exclusion>
+                    <groupId>org.springframework.cloud</groupId>
+                    <artifactId>spring-cloud-starter-netflix-ribbon</artifactId>
+                </exclusion>
+            </exclusions>-->
+        </dependency>
+
+    </dependencies>
+
+
+</project>
